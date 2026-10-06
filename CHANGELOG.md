@@ -11,6 +11,7 @@ there is no `v0.6.0` tag in this repository.
 ### Added
 
 - Added `--copilot-config` / `copilot_config = true` to incrementally sync host GitHub Copilot CLI config, forward the host Copilot login as `COPILOT_GITHUB_TOKEN`, and live-mount `~/.copilot/session-state` for resume continuity, plus `--no-copilot-auth` / `no_copilot_auth = true` to keep the box's Copilot login independent.
+- Added `yolobox completion bash|zsh` to print shell completion scripts for subcommands, AI shortcuts, flags, and common flag values. The Homebrew formula now installs bash and zsh completions automatically.
 
 ## v0.19.4 - 2026-08-28
 

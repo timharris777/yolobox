@@ -55,6 +55,7 @@ yolobox update-agents       # Update all bundled AI CLIs in persistent home
 yolobox update-agents codex # Update one AI CLI; accepts multiple targets
 yolobox reset --force       # Remove yolobox named volumes (all architectures)
 yolobox uninstall --force   # Remove yolobox binary, image, and volumes
+yolobox completion bash     # Print a bash completion script (also: zsh)
 yolobox version             # Print version and platform
 yolobox help                # Show CLI help
 ```
